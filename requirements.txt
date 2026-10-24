@@ -1,0 +1,5 @@
+pyAgrum
+pandas
+numpy
+scikit-learn
+jupyter
