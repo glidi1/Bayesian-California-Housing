@@ -34,14 +34,7 @@ The notebook builds a Bayesian network from the 1990 California Housing census d
 
 The utility values are hand-set assumptions for the coursework, not estimates from real market data.
 
-## Running it
 
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
-jupyter notebook Bayesian_CW_Notebook.ipynb
-```
 
 Run the cells in order. The dataset is fetched through scikit-learn, so no manual download is needed. The first run writes `california_housing_disc.csv`, which later cells read back in.
 
